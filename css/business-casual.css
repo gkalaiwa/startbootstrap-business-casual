@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Lora';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpg");
-  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("https://lh3.googleusercontent.com/2XtEyUFome_HW_kkRzOUWNAsfTvHCC4tGvygvafQj3TMaGfI_Orj-0YO-Qoy5XQ0JwvVoAHNj3ITkl7oOuVHtxljlHFkyA3e6EgZS-S98Da-GUTd6OEg9xLbzmQm0TNaCPQR7DwK5bYvM4TQD7AKWnRPOf_uz3V5W9IkWZaVstb3jbKGLNSgxEWDPGzyRS_BRrOEuQh8NClFMMrtDGOfwYCY7g8XV4myzrkfIo0X6IMPtOQckkEbyig1WTI2Fnz-95j2wsfErLhmOlQcWMVIYpY7yLw5eF8rYPujY_dvcyoQbx_MYi1rcjki1M2sP-TuFeE7C3_af1QmQ2bzEAhrYzZdfSlOFpGXKMSDRgkOXdzRiI8xJXIHRpu60FDM5c5u2whfCihZufc7vp9pJFobIA0vjP25iwF-W-vW3RdlUROBUnZnKTGYs9ngnInJh9hvHZaiePatBwvEPEN2UzgJ1EAmHAazVV4X9xNMGkdDd8Zz88tYWMXSaIpgq7FaQtZ-jDyrbLI8GMxGKpuFL6OeQzDuAM9EZBw5bUOWKYiGNtWkM0AqWzYvYtdjTZuEBzGdkPvUX5oMKGr_c4RXcugTSQcvtgAfBQOID66ijuiU1Gm1Qyy-EZx_xyIpkaIrWDFcCPZy1_J0yAao3ynUydaNeyT8U6437hdN=w462-h615-no");
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("https://lh3.googleusercontent.com/2XtEyUFome_HW_kkRzOUWNAsfTvHCC4tGvygvafQj3TMaGfI_Orj-0YO-Qoy5XQ0JwvVoAHNj3ITkl7oOuVHtxljlHFkyA3e6EgZS-S98Da-GUTd6OEg9xLbzmQm0TNaCPQR7DwK5bYvM4TQD7AKWnRPOf_uz3V5W9IkWZaVstb3jbKGLNSgxEWDPGzyRS_BRrOEuQh8NClFMMrtDGOfwYCY7g8XV4myzrkfIo0X6IMPtOQckkEbyig1WTI2Fnz-95j2wsfErLhmOlQcWMVIYpY7yLw5eF8rYPujY_dvcyoQbx_MYi1rcjki1M2sP-TuFeE7C3_af1QmQ2bzEAhrYzZdfSlOFpGXKMSDRgkOXdzRiI8xJXIHRpu60FDM5c5u2whfCihZufc7vp9pJFobIA0vjP25iwF-W-vW3RdlUROBUnZnKTGYs9ngnInJh9hvHZaiePatBwvEPEN2UzgJ1EAmHAazVV4X9xNMGkdDd8Zz88tYWMXSaIpgq7FaQtZ-jDyrbLI8GMxGKpuFL6OeQzDuAM9EZBw5bUOWKYiGNtWkM0AqWzYvYtdjTZuEBzGdkPvUX5oMKGr_c4RXcugTSQcvtgAfBQOID66ijuiU1Gm1Qyy-EZx_xyIpkaIrWDFcCPZy1_J0yAao3ynUydaNeyT8U6437hdN=w462-h615-no");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -81,7 +81,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #d632ff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +90,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #02742c;
 }
 
 @media (min-width: 992px) {
@@ -101,7 +101,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #d632ff;
   }
 }
 
@@ -203,7 +203,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba(2, 116, 44, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -211,7 +211,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #02742c;
 }
 
 @media (min-width: 992px) {
@@ -230,11 +230,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #d632ff !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #02742c !important;
 }
 
 .btn {
@@ -243,13 +243,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #d632ff;
+  border-color: #02742c;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #d632ff;
+  border-color: #02742c;
 }
 
 .font-weight-light {
